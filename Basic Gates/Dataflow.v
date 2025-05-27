@@ -1,4 +1,4 @@
-module And(
+module Dataflow(
   input a,b,
   output out_and,out_or,out_not,out_nand,out_nor,out_xor,out_xnor
 );
