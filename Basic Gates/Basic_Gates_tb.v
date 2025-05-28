@@ -1,8 +1,8 @@
 module Basic_Gates_tb;
   wire out_and,out_or,out_not,out_nand,out_nor,out_xor,out_xnor;
   reg a,b;
-  dataflow dut(.a(a),.b(b),.out_and(out_and),.out_or(out_or),.out_not(out_not),out_nand(out_nand),
-               out_nor(out_nor),out_xor(out_xor),out_xnor(out_xnor));
+  Dataflow dut(.a(a),.b(b),.out_and(out_and),.out_or(out_or),.out_not(out_not),.out_nand(out_nand),
+               .out_nor(out_nor),.out_xor(out_xor),.out_xnor(out_xnor));
   initial
     begin
       a=1'b0; b=1'b0;
