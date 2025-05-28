@@ -1,7 +1,7 @@
 module full_adder_tb;
   wire sum,carry;
   reg a,b,c;
-  half_adder dut(.a(a),.b(b),.c(c),.sum(sum),.carry(carry));
+  full_adder dut(.a(a),.b(b),.c(c),.sum(sum),.carry(carry));
 
   initial
     begin
